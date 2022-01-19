@@ -1,0 +1,205 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: hsl(0, 2%, 12%);
+}
+#hero {
+    width: 100%;
+    height: 100vh;
+    background:url(https://images.pexels.com/photos/374074/pexels-photo-374074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) fixed top center;
+    background-size: cover;
+    position: relative;
+}
+#hero:before {
+    content: "";
+    background: rgba(0,0,0,0.6);
+    position:absolute;
+    bottom: 0;
+    top:0;
+    left:0;
+    right:0;
+}
+#hero .container {
+    position:relative;
+    padding-top: 75px;
+}
+#hero h1{
+    margin:0;
+    font-size: 56px;
+    font-weight:700;
+    line-height:64px;
+    color:#fff;
+    font-family: "Open Sans", sans-serif;
+}
+#hero h2{
+    color:#fff;
+    margin:10px 0 0;
+    font-size:24px;
+}
+#hero .btn{
+    margin-top:10px;
+}
+#hero1{
+    width: 100%;
+    height: 70vh;
+    background:url(https://images.pexels.com/photos/1181243/pexels-photo-1181243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) fixed top center;
+    background-size: cover;
+    position: relative;
+}
+#hero1 h1{
+    margin:0;
+    font-size: 56px;
+    font-weight:700;
+    line-height:64px;
+    color:#fff;
+    font-family: "Open Sans", sans-serif;
+}
+#hero1:before {
+    content: "";
+    background: rgba(0,0,0,0.6);
+    position:absolute;
+    bottom: 0;
+    top:0;
+    left:0;
+    right:0;
+}
+#hero1 .container {
+    position:relative;
+    padding-top: 75px;
+}
+#hero2{
+    width: 100%;
+    height: 70vh;
+    background:url(https://images.pexels.com/photos/887751/pexels-photo-887751.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) fixed top center;
+    background-size: cover;
+    position: relative;
+}
+#hero2 h1{
+    margin:0;
+    font-size: 56px;
+    font-weight:700;
+    line-height:64px;
+    color:#fff;
+    font-family: "Open Sans", sans-serif;
+}
+#hero2:before {
+    content: "";
+    background: rgba(0,0,0,0.6);
+    position:absolute;
+    bottom: 0;
+    top:0;
+    left:0;
+    right:0;
+}
+#hero2 .container {
+    position:relative;
+    padding-top: 75px;
+}
+.about ul li{
+    list-style-type: none;
+}
+.cta {
+    background: linear-gradient(rgba(2,2,2, 0.5), rgba(2,2,2, 0.8)), url(https://images.pexels.com/photos/374074/pexels-photo-374074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) fixed center center;
+    padding: 80px 0;
+    color:#fff;
+}
+.cta h3 {
+    font-weight: 700;
+    font-size:28px;
+}
+.cta-btn {
+    font-weight:600;
+    font-size:16px;
+    letter-spacing:1px;
+    display:inline-block;
+    padding: 8px 28px;
+    border:2px solid #fff;
+    border-radius:4px;
+    color:#fff;
+    margin-top:10px;
+}
+.cta-btn:hover {
+    background: #ffffff;
+    border-color: #ffffff;
+    color: #151515;
+}
+.services .icon-box{
+    border: 1px solid #383838;
+    padding: 80px 20px;
+    transition: all ease-in-out 0.3s;
+    background: #fff;
+    margin-bottom: 20px;
+}
+.services .icon-box .icon{
+    margin:0 auto;
+    width:150px;
+    height:150px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.services .icon-box h4 {
+    line-height:24px;
+    font-size:14px;
+    margin-bottom: 0;
+}
+.services .icon-box p{
+    line-height:24px;
+    font: size 14px;
+    margin-bottom:0;
+}
+.services .icon-box:hover {
+    border-color:#ffffff17;
+    box-shadow: 0px 0 25px 0 rgba(0,0,0,0.5);
+    transform: translateY(-10px);
+}
+.footer-top {
+    background: #151515;
+    color:#fff;
+    border-bottom:1px solid #222222;
+    padding:30px 0 10px 0;
+}
+.footer-top p{
+    opacity: .8;
+    font-size: 14px;
+    line-height:24px;
+    margin-bottom:0;
+}
+.footer-top .social-links svg{
+    opacity: .8;
+    float:right;
+    margin:0 10px 20px;
+    margin-top:-20px;
+}
+.footer-top .social-links svg:hover{
+    opacity: 1;
+}
+.contact{
+    margin:50px;
+}
+.contact .info .info-icon{
+    background: #ffffff00;
+    float:left;
+    width:50px;
+    height:50px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.contact .info h4{
+    padding:0 0 0 60px;
+    font-size:22px;
+    font-weight:600;
+    margin-bottom: 5px;
+}
+.contact .info p{
+    padding:0 0 0 60px;
+    font-size: 14px;
+    font-family:"Open Sans", sans-serif;
+}
+.content .con{
+    height: 1350;
+    width: 680;
+}
